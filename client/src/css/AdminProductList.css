@@ -1,0 +1,191 @@
+/* Tổng thể */
+.product-list {
+    margin-left: 290px; /* Để tránh sidebar */
+    padding: 20px;
+    background-color: #f5f5f5; /* Màu nền sáng */
+    min-height: 100vh; /* Đảm bảo nội dung chiếm chiều cao màn hình */
+    display: flex;
+    flex-direction: column; /* Đặt các phần tử con theo cột */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Tiêu đề và nút thêm sản phẩm */
+.product-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Nút thêm sản phẩm */
+.product-list button {
+    background-color: #b40606; /* Màu đỏ */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.product-list button:hover {
+    background-color: #9b1919; /* Đỏ đậm */
+    transform: scale(1.05);
+}
+
+/* Bảng sản phẩm */
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-table th, .product-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.product-table th {
+    background-color: #b40606; /* Màu đỏ */
+    color: white;
+    font-weight: bold;
+}
+
+.product-table tbody tr:hover {
+    background-color: #f9eaea; /* Nền nhẹ */
+}
+
+.product-image {
+    width: 60px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Nút sửa và xóa */
+.product-table button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.product-table button:first-child {
+    background-color: #d32f2f; /* Màu đỏ */
+    color: white;
+    margin-right: 5px;
+}
+
+.product-table button:first-child:hover {
+    background-color: #b40606; /* Màu đỏ đậm */
+    transform: scale(1.05);
+}
+
+.product-table button:last-child {
+    background-color: #d32f2f; /* Màu đỏ */
+    color: white;
+}
+
+.product-table button:last-child:hover {
+    background-color: #b40606; /* Màu đỏ đậm */
+    transform: scale(1.05);
+}
+
+/* Phân trang */
+.pagination {
+    display: flex;
+    justify-content: center; /* Căn giữa */
+    align-items: center;
+    margin-top: 20px; /* Khoảng cách giữa bảng và phân trang */
+    clear: both; /* Ngăn chặn phân trang bị đẩy sang bên */
+}
+
+.pagination button {
+    background-color: #6c757d; /* Màu xám */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+    background-color: #b40606;
+}
+
+.pagination .active {
+    background-color: #d32f2f;
+    color: white;
+}
+
+.pagination button:disabled {
+    background-color: #e9ecef;
+    color: #6c757d;
+    cursor: not-allowed;
+}
+
+/* Thông báo */
+.alert {
+    padding: 10px 15px;
+    background-color: #d4edda; /* Màu xanh lá nhạt */
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Form thêm/sửa sản phẩm */
+.add-product {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-product input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.add-product button {
+    background-color: #b40606; /* Màu đỏ */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.add-product button:hover {
+    background-color: #9b1919; /* Đỏ đậm */
+    transform: scale(1.05);
+}
+
+.add-product .cancleb {
+    background-color: #6c757d; /* Màu xám */
+    margin-left: 10px;
+}
+
+.add-product .cancleb:hover {
+    background-color: #5a6268;
+}

@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Type": "Laptop"
+},
+{
+  "_id": {
+    "$oid": "6726460fd0296c8ef92ad070"
+  },
+  "Type": "Màn hình"
+},
+{
+  "_id": {
+    "$oid": "67264646d0296c8ef92ad071"
+  },
+  "Type": "Gear"
+},
+{
+  "_id": {
+    "$oid": "67264664d0296c8ef92ad074"
+  },
+  "Type": "Linh kiện"
+},
+{
+  "_id": {
+    "$oid": "6726495cd0296c8ef92ad07c"
+  },
+  "Type": "Phụ kiện"
+},
+{
+  "_id": {
+    "$oid": "6726496cd0296c8ef92ad07d"
+  },
+  "Type": "Bàn ghế"
+}]

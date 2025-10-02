@@ -1,70 +1,271 @@
+.product-detail-container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
 .product-detail {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
 }
 
 .product-info {
     display: flex;
-    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 0 auto;
 }
 
 .image-container {
-    flex: 1;
+    flex: 0 0 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
 }
 
-.image-container img {
-    max-width: 100%;
-    height: auto;
+.image-container img.main-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.3s;
+}
+
+.thumbnail.active {
+    border: 2px solid #E57905;
 }
 
 .details-container {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     padding-left: 20px;
+}
+
+.product-title {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.product-price,
+.product-stock {
+    font-size: 20px;
+    color: #E57905;
+    margin-top: 5px; /* Loại bỏ margin để giảm khoảng cách */
 }
 
 .quantity-control {
     display: flex;
     align-items: center;
     margin: 10px 0;
+    gap: 5px;
 }
 
-.quantity-control button {
-    margin: 0 5px;
-    padding: 5px 10px;
+.quantity-button {
+    background-color: #E57905;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quantity-button:hover {
+    background-color: #cf6b00;
+}
+
+.quantity {
+    font-size: 18px;
+    width: 40px;
+    text-align: center;
 }
 
 .add-to-cart-button {
-    background-color: #4297DE;
-    color: white;
+    background-color: #E57905;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 20px;
+    border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-to-cart-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
 }
 
 .add-to-cart-button:hover {
-    background-color: #88D5F4;
+    background-color: #cf6b00;
+}
+
+.add-to-cart-button:disabled {
+    background-color: #ccc;
+}
+
+.ratings-section {
+    max-width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ratings-section h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+.ratings-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rating-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rating-stars {
+    font-size: 20px;
+    color: lightgray;
+}
+
+.rating-stars .filled {
+    color: gold;
+}
+
+.related-products-title {
+    margin-left: 150px;
 }
 
 .related-products {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.related-products ul {
+    display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
 }
 
-.related-product-item {
+.pl-product-list-item {
     border: 1px solid #ccc;
-    padding: 10px;
-    width: calc(20% - 20px); /* Mỗi sản phẩm chiếm 20% */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.related-product-item img {
-    max-width: 100%;
-    height: auto;
-}
-
-.related-product-item h4 {
+    flex: 1 0 21%;
+    max-width: 21%;
+    box-sizing: border-box;
     text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.pl-product-list-item img {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.product-name {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+}
+
+.product-name:hover {
+    color: #E57905;
+}
+
+.loading,
+.error {
+    text-align: center;
+    margin-top: 20px;
+    color: #b40606;
+}
+
+.size-selection,
+.topping-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.size-selection h3,
+.topping-selection h3 {
+    margin: 0;
+}
+
+.topping-selection label {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.topping-selection input[type="checkbox"] {
+    margin-right: 10px;
 }

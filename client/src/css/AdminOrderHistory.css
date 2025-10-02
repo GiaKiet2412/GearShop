@@ -1,0 +1,129 @@
+/* Tổng thể */
+.adminorders-container {
+    margin-left: 290px; /* Để tránh sidebar */
+    padding: 20px;
+    background-color: #f5f5f5; /* Nền sáng */
+    min-height: 100vh; /* Chiếm chiều cao màn hình */
+    display: flex;
+    flex-direction: column; /* Đặt các phần tử theo cột */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Tiêu đề */
+.adminorders-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Bảng danh sách đơn hàng */
+.adminorders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.adminorders-table th,
+.adminorders-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.adminorders-table th {
+    background-color: #b40606; /* Màu đỏ */
+    color: white;
+    font-weight: bold;
+}
+
+.adminorders-table tbody tr:hover {
+    background-color: #f9eaea; /* Nền nhẹ */
+}
+
+.adminorders-table tr td {
+    border-right: 1px solid #ddd;
+}
+
+/* Nút xác nhận đơn hàng */
+.adminorders-table button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    background-color: #d32f2f; /* Màu đỏ */
+    color: white;
+}
+
+.adminorders-table button:hover {
+    background-color: #b40606; /* Màu đỏ đậm */
+    transform: scale(1.05);
+}
+
+/* Thông báo lỗi và trạng thái loading */
+.adminorders-loading,
+.adminorders-error {
+    padding: 10px 15px;
+    background-color: #f8d7da; /* Màu hồng nhạt */
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    margin: 20px auto;
+    width: fit-content;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Định dạng danh sách sản phẩm */
+.adminorders-table ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.adminorders-table ul li {
+    padding: 4px 0;
+    font-size: 12px;
+    color: #333;
+}
+
+/* Phân trang nếu cần */
+.pagination {
+    display: flex;
+    justify-content: center; /* Căn giữa */
+    align-items: center;
+    margin-top: 20px; /* Khoảng cách giữa bảng và phân trang */
+    clear: both; /* Ngăn chặn phân trang bị đẩy sang bên */
+}
+
+.pagination button {
+    background-color: #6c757d; /* Màu xám */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+    background-color: #b40606;
+}
+
+.pagination .active {
+    background-color: #d32f2f;
+    color: white;
+}
+
+.pagination button:disabled {
+    background-color: #e9ecef;
+    color: #6c757d;
+    cursor: not-allowed;
+}

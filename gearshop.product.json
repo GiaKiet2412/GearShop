@@ -1,0 +1,840 @@
+[{
+  "_id": {
+    "$oid": "67231be13d434f493dca8d8a"
+  },
+  "Name": "Laptop Gaming Acer Aspire 7 A715 42G R05G R5 5500U/8GB/512GB/15.6F 144Hz/GTX1650 4GB/Win11",
+  "Description": "ACER ASPIRE 7 A715-42G-R05G sở hữu cấu hình mạnh với bộ vi xử lý AMD Ryzen và card đồ họa rời NVIDIA GeForce GTX kết hợp cùng hai quạt tản nhiệt đem lại khả năng làm mát tối đa.",
+  "Price": "12890000",
+  "Img": "images/sp101.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "Acer",
+  "Stock": 33
+},
+{
+  "_id": {
+    "$oid": "672326ab37874e796f8846af"
+  },
+  "Name": "Laptop Gaming ASUS ROG Zephyrus G14 GA401QE-HZ018W R7 5800HS/16GB/1TB/14F 144Hz/RTX 3050 4GB/Win11",
+  "Description": "Laptop gaming ASUS ROG Zephyrus G14 được trang bị CPU AMD Ryzen 7 5800HS và GPU NVIDIA GeForce RTX 3050, mang lại hiệu suất chơi game tuyệt vời. Thiết kế mỏng nhẹ, dễ dàng mang theo, với màn hình 14 inch tần số quét 144Hz cho hình ảnh sắc nét. Thời lượng pin ấn tượng giúp bạn chơi game trong thời gian dài. Bàn phím với đèn nền RGB, tạo không gian gaming sống động.",
+  "Price": 22500000,
+  "Img": "images/sp102.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "ASUS",
+  "Stock": 45
+},
+{
+  "_id": {
+    "$oid": "672326dd37874e796f8846b1"
+  },
+  "Name": "Laptop Gaming Dell G5 15 5515 R5 5600H/8GB/512GB/15.6F 120Hz/RTX 3060 6GB/Win11",
+  "Description": "Dell G5 15 trang bị CPU AMD Ryzen 5 5600H và GPU NVIDIA GeForce RTX 3060, mang đến hiệu năng chơi game mượt mà. Thiết kế mạnh mẽ, chắc chắn, với màn hình 15.6 inch tần số quét 120Hz giúp hình ảnh hiển thị mượt mà. Thời lượng pin ổn định, phù hợp cho cả công việc và giải trí. Bàn phím tích hợp đèn LED, cho trải nghiệm chơi game tốt hơn.",
+  "Price": 19800000,
+  "Img": "images/sp103.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "Dell",
+  "Stock": 49
+},
+{
+  "_id": {
+    "$oid": "6723277037874e796f8846b9"
+  },
+  "Name": "Laptop Gaming Acer Nitro 5 AN515-57-53E5 R5 5600H/16GB/1TB/15.6F 144Hz/RTX 3050 4GB/Win11",
+  "Description": "Acer Nitro 5 với CPU AMD Ryzen 5 5600H và GPU NVIDIA GeForce RTX 3050, mang đến hiệu suất cao trong chơi game và đa nhiệm. Màn hình 15.6 inch với tần số quét 144Hz, giúp hình ảnh hiển thị sống động và mượt mà. Thiết kế hầm hố với tản nhiệt hiệu quả, thời lượng pin ổn định. Bàn phím với đèn nền RGB cho trải nghiệm chơi game hấp dẫn.",
+  "Price": 17500000,
+  "Img": "images/sp104.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "Acer",
+  "Stock": 48
+},
+{
+  "_id": {
+    "$oid": "6723279a37874e796f8846bb"
+  },
+  "Name": "Laptop Gaming HP Omen 15-en0010AX R7 5800H/16GB/512GB/15.6F 144Hz/RTX 3060 6GB/Win11",
+  "Description": "HP Omen 15 mang đến hiệu năng mạnh mẽ với CPU AMD Ryzen 7 5800H và GPU NVIDIA GeForce RTX 3060. Màn hình 15.6 inch với tần số quét 144Hz cho hình ảnh mượt mà, phù hợp cho game thủ. Thiết kế tối ưu với hệ thống tản nhiệt hiệu quả, thời lượng pin ổn định. Bàn phím RGB cho trải nghiệm chơi game sống động.",
+  "Price": 24000000,
+  "Img": "images/sp105.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "HP",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "672327a937874e796f8846bd"
+  },
+  "Name": "Laptop Gaming Lenovo Legion 5 15ACH6 R5 5600H/16GB/1TB/15.6F 165Hz/RTX 3060 6GB/Win11",
+  "Description": "Lenovo Legion 5 trang bị CPU AMD Ryzen 5 5600H và GPU NVIDIA GeForce RTX 3060, mang lại hiệu suất chơi game ấn tượng. Màn hình 15.6 inch tần số quét 165Hz cung cấp trải nghiệm hình ảnh mượt mà. Thiết kế chắc chắn, hệ thống tản nhiệt hiệu quả, bàn phím RGB cho cảm giác chơi game tốt.",
+  "Price": 22900000,
+  "Img": "images/sp106.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "Lenovo",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "672327b937874e796f8846bf"
+  },
+  "Name": "Laptop Gaming MSI GF63 Thin 10SC-031VN i5 10300H/8GB/512GB/15.6F 120Hz/GTX 1650/Win11",
+  "Description": "MSI GF63 Thin với CPU Intel Core i5 10300H và GPU NVIDIA GeForce GTX 1650, cung cấp hiệu suất chơi game ổn định. Màn hình 15.6 inch với tần số quét 120Hz giúp hình ảnh hiển thị mượt mà. Thiết kế mỏng nhẹ, dễ dàng mang theo, bàn phím với đèn nền đỏ.",
+  "Price": 15500000,
+  "Img": "images/sp107.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "MSI",
+  "Stock": 49
+},
+{
+  "_id": {
+    "$oid": "672327c637874e796f8846c1"
+  },
+  "Name": "Laptop Gaming Razer Blade 15 Base RZ09-0409 R7 4800H/16GB/512GB/15.6F 144Hz/RTX 2060/Win11",
+  "Description": "Razer Blade 15 Base với CPU AMD Ryzen 7 4800H và GPU NVIDIA GeForce RTX 2060, mang đến hiệu suất chơi game đỉnh cao. Thiết kế mỏng nhẹ, màn hình 15.6 inch tần số quét 144Hz cho hình ảnh sắc nét. Bàn phím RGB có thể tùy chỉnh, thời lượng pin dài.",
+  "Price": 32000000,
+  "Img": "images/sp108.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "Razer",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "672327d537874e796f8846c3"
+  },
+  "Name": "Laptop Gaming Gigabyte Aorus 15G XC-8DE2130SH R7 5800H/16GB/1TB/15.6F 240Hz/RTX 3070 8GB/Win11",
+  "Description": "Gigabyte Aorus 15G được trang bị CPU AMD Ryzen 7 5800H và GPU NVIDIA GeForce RTX 3070, mang lại hiệu suất chơi game cực cao. Màn hình 15.6 inch tần số quét 240Hz cho hình ảnh mượt mà. Thiết kế cao cấp, bàn phím cơ với đèn RGB, thời lượng pin ấn tượng.",
+  "Price": 39500000,
+  "Img": "images/sp109.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "Gigabyte",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "672327e337874e796f8846c5"
+  },
+  "Name": "Laptop Gaming ASUS TUF Gaming A15 FA506II R7 4800H/8GB/512GB/15.6F 144Hz/GTX 1660Ti/Win11",
+  "Description": "ASUS TUF Gaming A15 sở hữu CPU AMD Ryzen 7 4800H và GPU NVIDIA GeForce GTX 1660Ti, mang lại hiệu suất chơi game ổn định. Màn hình 15.6 inch với tần số quét 144Hz, thiết kế chắc chắn và bền bỉ, bàn phím RGB nổi bật.",
+  "Price": 19200000,
+  "Img": "images/sp110.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "ASUS",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "6723280037874e796f8846c7"
+  },
+  "Name": "Laptop Gaming Dell Alienware m15 R6 R7 5800H/16GB/1TB/15.6F 165Hz/RTX 3070 8GB/Win11",
+  "Description": "Dell Alienware m15 R6 với CPU AMD Ryzen 7 5800H và GPU NVIDIA GeForce RTX 3070, mang lại hiệu suất chơi game tuyệt vời. Màn hình 15.6 inch tần số quét 165Hz, thiết kế độc đáo, bàn phím RGB với cảm giác gõ tuyệt vời.",
+  "Price": 36000000,
+  "Img": "images/sp111.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "Dell",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "6723280a37874e796f8846c9"
+  },
+  "Name": "Laptop Gaming Lenovo IdeaPad Gaming 3 15ACH6 R5 5600H/8GB/512GB/15.6F 120Hz/GTX 1650/Win11",
+  "Description": "Lenovo IdeaPad Gaming 3 trang bị CPU AMD Ryzen 5 5600H và GPU NVIDIA GeForce GTX 1650, mang lại hiệu suất chơi game tốt. Màn hình 15.6 inch tần số quét 120Hz, thiết kế hiện đại và hệ thống tản nhiệt hiệu quả.",
+  "Price": 17000000,
+  "Img": "images/sp112.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "Lenovo",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "6723281537874e796f8846cb"
+  },
+  "Name": "Laptop Gaming Acer Predator Helios 300 PH315-54-7604 R7 11800H/16GB/512GB/15.6F 144Hz/RTX 3060 6GB/Win11",
+  "Description": "Acer Predator Helios 300 trang bị CPU Intel Core i7 11800H và GPU NVIDIA GeForce RTX 3060, mang lại hiệu suất chơi game mạnh mẽ. Màn hình 15.6 inch với tần số quét 144Hz cho hình ảnh mượt mà. Thiết kế gaming ấn tượng, bàn phím RGB tùy chỉnh.",
+  "Price": 29500000,
+  "Img": "images/sp113.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "Acer",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "6723281f37874e796f8846cd"
+  },
+  "Name": "Laptop Gaming MSI Stealth 15M A11UEK R7 5800H/16GB/512GB/15.6F 144Hz/RTX 3060 6GB/Win11",
+  "Description": "MSI Stealth 15M với CPU AMD Ryzen 7 5800H và GPU NVIDIA GeForce RTX 3060, mang đến hiệu suất chơi game tuyệt vời. Màn hình 15.6 inch tần số quét 144Hz cho trải nghiệm hình ảnh tuyệt vời. Thiết kế mỏng nhẹ, bàn phím RGB, thời lượng pin ổn định.",
+  "Price": 29000000,
+  "Img": "images/sp114.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "MSI",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "6723282937874e796f8846cf"
+  },
+  "Name": "Laptop Gaming HP Pavilion Gaming 15-ec2031AX R5 5600H/8GB/512GB/15.6F 144Hz/GTX 1650/Win11",
+  "Description": "HP Pavilion Gaming 15 được trang bị CPU AMD Ryzen 5 5600H và GPU NVIDIA GeForce GTX 1650, mang lại hiệu suất chơi game tốt. Màn hình 15.6 inch với tần số quét 144Hz giúp hình ảnh hiển thị sắc nét. Thiết kế hiện đại, bàn phím với đèn nền RGB.",
+  "Price": 16500000,
+  "Img": "images/sp115.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "HP",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "6723283537874e796f8846d1"
+  },
+  "Name": "Laptop Gaming ASUS ROG Strix G15 G513IH R7 4800H/8GB/512GB/15.6F 144Hz/GTX 1650/Win11",
+  "Description": "ASUS ROG Strix G15 sở hữu CPU AMD Ryzen 7 4800H và GPU NVIDIA GeForce GTX 1650, mang lại hiệu suất chơi game ổn định. Màn hình 15.6 inch tần số quét 144Hz, thiết kế đẹp mắt và hệ thống tản nhiệt hiệu quả.",
+  "Price": 19500000,
+  "Img": "images/sp116.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "ASUS",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "6723284037874e796f8846d3"
+  },
+  "Name": "Laptop Gaming Dell G3 15 3500 R5 3550H/8GB/512GB/15.6F 120Hz/GTX 1650/Win11",
+  "Description": "Dell G3 15 với CPU AMD Ryzen 5 3550H và GPU NVIDIA GeForce GTX 1650, mang đến hiệu suất chơi game cơ bản tốt. Màn hình 15.6 inch tần số quét 120Hz, thiết kế tối giản và dễ dàng sử dụng hàng ngày.",
+  "Price": 15800000,
+  "Img": "images/sp117.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "Dell",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "6723284a37874e796f8846d5"
+  },
+  "Name": "Laptop Gaming Lenovo Legion 7 16ACH6 R9 5900HX/32GB/1TB/16F 165Hz/RTX 3080 16GB/Win11",
+  "Description": "Lenovo Legion 7 với CPU AMD Ryzen 9 5900HX và GPU NVIDIA GeForce RTX 3080, mang đến hiệu suất chơi game đỉnh cao. Màn hình 16 inch tần số quét 165Hz, thiết kế cao cấp, bàn phím cơ với đèn RGB tùy chỉnh.",
+  "Price": 47000000,
+  "Img": "images/sp118.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "Lenovo",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "6723287337874e796f8846d7"
+  },
+  "Name": "Laptop Gaming Gigabyte AERO 15 OLED XA R7 5800H/16GB/1TB/15.6F 240Hz/RTX 3070 8GB/Win11",
+  "Description": "Gigabyte AERO 15 với CPU AMD Ryzen 7 5800H và GPU NVIDIA GeForce RTX 3070, mang lại hiệu suất chơi game và sáng tạo ấn tượng. Màn hình 15.6 inch OLED với tần số quét 240Hz cho màu sắc sống động và độ tương phản cao. Thiết kế cao cấp, bàn phím RGB, thời lượng pin lâu dài.",
+  "Price": 42000000,
+  "Img": "images/sp119.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "Gigabyte",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "6723288237874e796f8846d9"
+  },
+  "Name": "Laptop Gaming Razer Blade Stealth 13 RZ09-03572E32 R7 4800H/16GB/512GB/13.3F 120Hz/GTX 1650 Ti/Win11",
+  "Description": "Razer Blade Stealth 13 trang bị CPU AMD Ryzen 7 4800H và GPU NVIDIA GeForce GTX 1650 Ti, mang lại hiệu suất chơi game di động ấn tượng. Màn hình 13.3 inch tần số quét 120Hz, thiết kế mỏng nhẹ và thời trang, bàn phím RGB có thể tùy chỉnh.",
+  "Price": 28000000,
+  "Img": "images/sp120.png",
+  "Type": {
+    "$oid": "672645fad0296c8ef92ad06f"
+  },
+  "Brand": "Razer",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "6723892060804ab410048d1a"
+  },
+  "Name": "Màn hình LCD Philips 24E1N1100A/74 (23.8 inch IPS FHD 1ms 100Hz) ",
+  "Description": "Màn hình Philips này làm mới hình ảnh màn hình lên đến 100 lần mỗi giây, giúp màn hình này nhanh hơn nhiều so với màn hình tiêu chuẩn. Với tốc độ khung hình 100Hz, game thủ có thể tìm thấy những hình ảnh quan trọng trên màn hình cho thấy chuyển động của kẻ thù theo chuyển động cực kỳ mượt mà để game thủ dễ dàng trở thành mục tiêu.",
+  "Price": 1970000,
+  "Img": "images/sp401.png",
+  "Type": {
+    "$oid": "6726460fd0296c8ef92ad070"
+  },
+  "Brand": "Philips",
+  "Stock": 47
+},
+{
+  "_id": {
+    "$oid": "67238a5b60804ab410048d1c"
+  },
+  "Name": "Màn hình LCD Samsung LF24T350FHEXXV (24 inch IPS FHD 75Hz)",
+  "Description": "Màn hình Samsung với tốc độ làm mới 75Hz, phù hợp cho nhu cầu sử dụng văn phòng và giải trí.",
+  "Price": 2200000,
+  "Img": "images/sp402.png",
+  "Type": {
+    "$oid": "6726460fd0296c8ef92ad070"
+  },
+  "Brand": "Samsung",
+  "Stock": 48
+},
+{
+  "_id": {
+    "$oid": "67238a5b60804ab410048d1d"
+  },
+  "Name": "Màn hình LCD LG 24MP88HV-S (24 inch IPS FHD 60Hz)",
+  "Description": "Màn hình LG với thiết kế viền mỏng, chất lượng hiển thị sắc nét và góc nhìn rộng.",
+  "Price": 3000000,
+  "Img": "images/sp403.png",
+  "Type": {
+    "$oid": "6726460fd0296c8ef92ad070"
+  },
+  "Brand": "LG",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238a5b60804ab410048d1e"
+  },
+  "Name": "Màn hình LCD ASUS VZ249HE (23.8 inch IPS FHD 75Hz)",
+  "Description": "Màn hình ASUS mỏng nhẹ, thích hợp cho làm việc và chơi game với tốc độ làm mới 75Hz.",
+  "Price": 2500000,
+  "Img": "images/sp404.png",
+  "Type": {
+    "$oid": "6726460fd0296c8ef92ad070"
+  },
+  "Brand": "ASUS",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238a5b60804ab410048d1f"
+  },
+  "Name": "Màn hình LCD Dell S2421H (24 inch IPS FHD 75Hz)",
+  "Description": "Màn hình Dell có chất lượng hình ảnh tốt, tốc độ phản hồi nhanh phù hợp cho công việc và giải trí.",
+  "Price": 2300000,
+  "Img": "images/sp405.png",
+  "Type": {
+    "$oid": "6726460fd0296c8ef92ad070"
+  },
+  "Brand": "Dell",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238a5b60804ab410048d20"
+  },
+  "Name": "Màn hình LCD AOC 24B1XH (23.8 inch IPS FHD 60Hz)",
+  "Description": "Màn hình AOC với công nghệ IPS, cho hình ảnh sống động và góc nhìn rộng.",
+  "Price": 1850000,
+  "Img": "images/sp406.png",
+  "Type": {
+    "$oid": "6726460fd0296c8ef92ad070"
+  },
+  "Brand": "AOC",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238a5b60804ab410048d21"
+  },
+  "Name": "Màn hình LCD ViewSonic VA2432-H (24 inch IPS FHD 75Hz)",
+  "Description": "Màn hình ViewSonic với độ phân giải FHD và tốc độ làm mới 75Hz, cho trải nghiệm thị giác tuyệt vời.",
+  "Price": 2100000,
+  "Img": "images/sp407.png",
+  "Type": {
+    "$oid": "6726460fd0296c8ef92ad070"
+  },
+  "Brand": "ViewSonic",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238a5b60804ab410048d22"
+  },
+  "Name": "Màn hình LCD MSI Pro MP241 (23.8 inch IPS FHD 60Hz)",
+  "Description": "Màn hình MSI với độ phân giải Full HD, cho hình ảnh sắc nét và chi tiết.",
+  "Price": 1990000,
+  "Img": "images/sp408.png",
+  "Type": {
+    "$oid": "6726460fd0296c8ef92ad070"
+  },
+  "Brand": "MSI",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238a5b60804ab410048d23"
+  },
+  "Name": "Màn hình LCD BenQ GW2480 (23.8 inch IPS FHD 60Hz)",
+  "Description": "Màn hình BenQ có thiết kế tối giản, công nghệ chống chói và góc nhìn rộng.",
+  "Price": 2000000,
+  "Img": "images/sp409.png",
+  "Type": {
+    "$oid": "6726460fd0296c8ef92ad070"
+  },
+  "Brand": "BenQ",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238a5b60804ab410048d24"
+  },
+  "Name": "Màn hình LCD HP V24i (24 inch IPS FHD 60Hz)",
+  "Description": "Màn hình HP với thiết kế hiện đại, chất lượng hình ảnh sắc nét và màu sắc chân thực.",
+  "Price": 1950000,
+  "Img": "images/sp410.png",
+  "Type": {
+    "$oid": "6726460fd0296c8ef92ad070"
+  },
+  "Brand": "HP",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238b9e60804ab410048d26"
+  },
+  "Name": "Bộ 3 Fan Case Xigmatek STARZ ARGB (EN41853) ",
+  "Description": "Bộ 3 Fan Case Xigmatek STARZ ARGB hoạt động ổn định ở mức điện áp DC 0.5V- 13.8V, đạt 3.64W. Điều này giúp bộ Fan case tối ưu hóa hiệu suất, giảm điện năng tiêu thụ đáng kể, làm cho máy tính của bạn hoạt động mạnh mẽ, hiệu quả hơn. Với tốc độ vận hành 1200 RPM ± 10%, bộ 3 fan này mang lại luồng không khí lưu thông mạnh mẽ trong hệ thống máy tính của bạn mà không gây ra sự ồn ào không mong muốn.",
+  "Price": 450000,
+  "Img": "images/sp301.png",
+  "Type": {
+    "$oid": "67264664d0296c8ef92ad074"
+  },
+  "Brand": "Xigmatek",
+  "Stock": 48
+},
+{
+  "_id": {
+    "$oid": "67238c8660804ab410048d28"
+  },
+  "Name": "Bộ 3 Fan Case Cooler Master SickleFlow ARGB",
+  "Description": "Bộ 3 Fan Case Cooler Master với hiệu suất cao, giảm nhiệt hiệu quả cho hệ thống, đồng thời tạo hiệu ứng ánh sáng ARGB đẹp mắt.",
+  "Price": 500000,
+  "Img": "images/sp302.png",
+  "Type": {
+    "$oid": "67264664d0296c8ef92ad074"
+  },
+  "Brand": "Cooler Master",
+  "Stock": 47
+},
+{
+  "_id": {
+    "$oid": "67238c8660804ab410048d29"
+  },
+  "Name": "Bộ 3 Fan Case Corsair iCUE SP120 RGB PRO",
+  "Description": "Bộ fan của Corsair hỗ trợ iCUE, có thể tùy chỉnh ánh sáng RGB đa dạng, mang đến trải nghiệm thị giác nổi bật.",
+  "Price": 750000,
+  "Img": "images/sp303.png",
+  "Type": {
+    "$oid": "67264664d0296c8ef92ad074"
+  },
+  "Brand": "Corsair",
+  "Stock": 49
+},
+{
+  "_id": {
+    "$oid": "67238c8660804ab410048d2a"
+  },
+  "Name": "Bộ 3 Fan Case DeepCool RF120M RGB",
+  "Description": "Bộ Fan Case DeepCool với luồng không khí mạnh mẽ và ánh sáng RGB tinh tế, đảm bảo làm mát và thẩm mỹ cho máy tính.",
+  "Price": 520000,
+  "Img": "images/sp304.png",
+  "Type": {
+    "$oid": "67264664d0296c8ef92ad074"
+  },
+  "Brand": "DeepCool",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238c8660804ab410048d2b"
+  },
+  "Name": "Bộ 3 Fan Case Thermaltake Pure ARGB",
+  "Description": "Thermaltake Pure ARGB với ánh sáng ARGB sống động, tối ưu hóa hiệu suất làm mát và hoạt động yên tĩnh.",
+  "Price": 690000,
+  "Img": "images/sp305.png",
+  "Type": {
+    "$oid": "67264664d0296c8ef92ad074"
+  },
+  "Brand": "Thermaltake",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238c8660804ab410048d2c"
+  },
+  "Name": "Bộ 3 Fan Case NZXT Aer RGB 2",
+  "Description": "Bộ fan của NZXT với thiết kế ánh sáng RGB đặc trưng, mang lại khả năng tùy chỉnh màu sắc linh hoạt và làm mát hiệu quả.",
+  "Price": 890000,
+  "Img": "images/sp306.png",
+  "Type": {
+    "$oid": "67264664d0296c8ef92ad074"
+  },
+  "Brand": "NZXT",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238c8660804ab410048d2d"
+  },
+  "Name": "Bộ 3 Fan Case Lian Li UNI FAN SL120 RGB",
+  "Description": "Lian Li UNI FAN SL120 với ánh sáng RGB tích hợp, thiết kế sang trọng, làm mát mạnh mẽ mà không ồn ào.",
+  "Price": 1000000,
+  "Img": "images/sp307.png",
+  "Type": {
+    "$oid": "67264664d0296c8ef92ad074"
+  },
+  "Brand": "Lian Li",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238c8660804ab410048d2e"
+  },
+  "Name": "Bộ 3 Fan Case Arctic P12 PWM PST",
+  "Description": "Bộ fan Arctic P12 với công nghệ PWM, cho phép điều chỉnh tốc độ quạt và giữ yên tĩnh khi hoạt động.",
+  "Price": 450000,
+  "Img": "images/sp308.png",
+  "Type": {
+    "$oid": "67264664d0296c8ef92ad074"
+  },
+  "Brand": "Arctic",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238c8660804ab410048d2f"
+  },
+  "Name": "Bộ 3 Fan Case Antec Prizm 120 ARGB",
+  "Description": "Antec Prizm với tốc độ quạt 1200 RPM, đèn ARGB tuyệt đẹp và khả năng làm mát tối ưu cho hệ thống của bạn.",
+  "Price": 680000,
+  "Img": "images/sp309.png",
+  "Type": {
+    "$oid": "67264664d0296c8ef92ad074"
+  },
+  "Brand": "Antec",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238c8660804ab410048d30"
+  },
+  "Name": "Bộ 3 Fan Case Phanteks SK PWM DRGB",
+  "Description": "Phanteks SK PWM với ánh sáng DRGB và tốc độ 1500 RPM, mang lại hiệu suất làm mát mạnh mẽ.",
+  "Price": 650000,
+  "Img": "images/sp310.png",
+  "Type": {
+    "$oid": "67264664d0296c8ef92ad074"
+  },
+  "Brand": "Phanteks",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238dc460804ab410048d34"
+  },
+  "Name": "Chuột không dây Dareu LM115B Black (Bluetooth + Wireless) ",
+  "Description": "Dareu LM115B là sản phẩm chuột không dây giá rẻ mới thuộc phân khúc sản phẩm chuột văn phòng của thương hiệu DareU. Sản phẩm chuột không dây mới của nhà DareU gây ấn tượng nhờ vào khả năng hạn chế phát ra âm thanh, tốc độ USB cũng cực kỳ nhanh và ấn tượng",
+  "Price": 229000,
+  "Img": "images/sp201.png",
+  "Type": {
+    "$oid": "67264646d0296c8ef92ad071"
+  },
+  "Brand": "Dareu",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238e4060804ab410048d36"
+  },
+  "Name": "Chuột không dây Logitech M221 Silent (Bluetooth + Wireless)",
+  "Description": "Chuột không dây Logitech M221 Silent với công nghệ giảm âm thanh, kết nối nhanh chóng, thích hợp cho môi trường văn phòng yên tĩnh.",
+  "Price": 350000,
+  "Img": "images/sp202.png",
+  "Type": {
+    "$oid": "67264646d0296c8ef92ad071"
+  },
+  "Brand": "Logitech",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238e4060804ab410048d37"
+  },
+  "Name": "Chuột không dây Xiaomi Mi Dual Mode Wireless Mouse Silent Edition",
+  "Description": "Xiaomi Mi Dual Mode hỗ trợ kết nối Bluetooth và Wireless, có thiết kế nhỏ gọn và thao tác êm ái, phù hợp cho người dùng văn phòng.",
+  "Price": 280000,
+  "Img": "images/sp203.png",
+  "Type": {
+    "$oid": "67264646d0296c8ef92ad071"
+  },
+  "Brand": "Xiaomi",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238e4060804ab410048d38"
+  },
+  "Name": "Chuột không dây Rapoo M300 Silent (Bluetooth + Wireless)",
+  "Description": "Chuột Rapoo M300 với thiết kế đơn giản, tính năng giảm âm và pin tiết kiệm, thích hợp cho công việc hàng ngày.",
+  "Price": 320000,
+  "Img": "images/sp204.png",
+  "Type": {
+    "$oid": "67264646d0296c8ef92ad071"
+  },
+  "Brand": "Rapoo",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238e4060804ab410048d39"
+  },
+  "Name": "Chuột không dây HP Z3700 (Wireless 2.4GHz)",
+  "Description": "HP Z3700 là chuột không dây gọn nhẹ với kết nối 2.4GHz, thiết kế mỏng và tiện lợi cho người dùng di động.",
+  "Price": 250000,
+  "Img": "images/sp205.png",
+  "Type": {
+    "$oid": "67264646d0296c8ef92ad071"
+  },
+  "Brand": "HP",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238e4060804ab410048d3a"
+  },
+  "Name": "Chuột không dây Fuhlen A09B (Bluetooth + Wireless)",
+  "Description": "Fuhlen A09B có kết nối không dây kép, thời lượng pin dài và hoạt động êm ái, thích hợp cho văn phòng.",
+  "Price": 240000,
+  "Img": "images/sp206.png",
+  "Type": {
+    "$oid": "67264646d0296c8ef92ad071"
+  },
+  "Brand": "Fuhlen",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238e4060804ab410048d3b"
+  },
+  "Name": "Chuột không dây Microsoft Modern Mobile Mouse (Bluetooth)",
+  "Description": "Microsoft Modern Mobile Mouse với thiết kế mỏng nhẹ, kết nối Bluetooth và khả năng sử dụng trên nhiều bề mặt.",
+  "Price": 470000,
+  "Img": "images/sp207.png",
+  "Type": {
+    "$oid": "67264646d0296c8ef92ad071"
+  },
+  "Brand": "Microsoft",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238e4060804ab410048d3c"
+  },
+  "Name": "Chuột không dây Dell WM126 (Wireless 2.4GHz)",
+  "Description": "Dell WM126 với kết nối không dây 2.4GHz, thiết kế nhỏ gọn và pin bền bỉ, thích hợp cho công việc văn phòng.",
+  "Price": 290000,
+  "Img": "images/sp208.png",
+  "Type": {
+    "$oid": "67264646d0296c8ef92ad071"
+  },
+  "Brand": "Dell",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238e4060804ab410048d3d"
+  },
+  "Name": "Chuột không dây Genius NX-7015 (Bluetooth + Wireless)",
+  "Description": "Genius NX-7015 có thiết kế thoải mái, phù hợp cho người dùng tay phải và tốc độ phản hồi nhanh qua Bluetooth.",
+  "Price": 210000,
+  "Img": "images/sp209.png",
+  "Type": {
+    "$oid": "67264646d0296c8ef92ad071"
+  },
+  "Brand": "Genius",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238e4060804ab410048d3e"
+  },
+  "Name": "Chuột không dây Asus WT425 (Wireless 2.4GHz)",
+  "Description": "Chuột Asus WT425 với công nghệ không dây 2.4GHz, thiết kế phù hợp cho văn phòng và sử dụng hàng ngày.",
+  "Price": 260000,
+  "Img": "images/sp210.png",
+  "Type": {
+    "$oid": "67264646d0296c8ef92ad071"
+  },
+  "Brand": "Asus",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238eda60804ab410048d40"
+  },
+  "Name": "Đế tản nhiệt Cooler Master Ergostand Air ",
+  "Description": "Đế tản nhiệt Cooler Master Ergostand Air là giá đỡ máy tính xách tay có thiết kế mỏng, nhẹ mới nhất của chúng tôi. Nó có cấu trúc khung rỗng được làm bằng hợp kim nhôm để tạo ra luồng không khí và thông gió dồi dào cũng như tản nhiệt tốt hơn.",
+  "Price": 690000,
+  "Img": "images/sp510.png",
+  "Type": {
+    "$oid": "6726495cd0296c8ef92ad07c"
+  },
+  "Brand": "Cool Master",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238f3960804ab410048d42"
+  },
+  "Name": "Đế tản nhiệt DeepCool N8 Ultra",
+  "Description": "DeepCool N8 Ultra là đế tản nhiệt với cấu trúc nhôm bền bỉ, giúp tạo luồng khí mạnh mẽ và hỗ trợ làm mát hiệu quả cho laptop.",
+  "Price": 750000,
+  "Img": "images/sp502.png",
+  "Type": {
+    "$oid": "6726495cd0296c8ef92ad07c"
+  },
+  "Brand": "DeepCool",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238f3960804ab410048d43"
+  },
+  "Name": "Đế tản nhiệt Asus Rog Cooling Pad",
+  "Description": "Đế tản nhiệt Asus Rog với thiết kế hầm hố, hỗ trợ tản nhiệt mạnh mẽ với cấu trúc rỗng và quạt tốc độ cao.",
+  "Price": 850000,
+  "Img": "images/sp503.png",
+  "Type": {
+    "$oid": "6726495cd0296c8ef92ad07c"
+  },
+  "Brand": "Asus",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238f3960804ab410048d44"
+  },
+  "Name": "Đế tản nhiệt Xiaomi Mi Cooling Stand",
+  "Description": "Xiaomi Mi Cooling Stand có thiết kế nhỏ gọn, chất liệu nhôm cao cấp giúp tản nhiệt tối ưu cho các dòng laptop mỏng nhẹ.",
+  "Price": 500000,
+  "Img": "images/sp504.png",
+  "Type": {
+    "$oid": "6726495cd0296c8ef92ad07c"
+  },
+  "Brand": "Xiaomi",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238f3960804ab410048d45"
+  },
+  "Name": "Đế tản nhiệt HAVIT F2083",
+  "Description": "HAVIT F2083 với quạt êm ái và mặt đế rộng, giúp tản nhiệt đều và ổn định cho laptop trong quá trình sử dụng.",
+  "Price": 650000,
+  "Img": "images/sp505.png",
+  "Type": {
+    "$oid": "6726495cd0296c8ef92ad07c"
+  },
+  "Brand": "HAVIT",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238f3960804ab410048d46"
+  },
+  "Name": "Đế tản nhiệt Laptop Antec A400",
+  "Description": "Antec A400 cung cấp khả năng làm mát tối ưu cho laptop với hệ thống quạt kép và thiết kế nhôm chắc chắn.",
+  "Price": 700000,
+  "Img": "images/sp506.png",
+  "Type": {
+    "$oid": "6726495cd0296c8ef92ad07c"
+  },
+  "Brand": "Antec",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238f3960804ab410048d47"
+  },
+  "Name": "Đế tản nhiệt Targus Chill Mat",
+  "Description": "Targus Chill Mat là đế tản nhiệt dành cho laptop với cấu trúc khung nhựa, nhẹ nhàng và dễ dàng mang theo.",
+  "Price": 550000,
+  "Img": "images/sp507.png",
+  "Type": {
+    "$oid": "672b18ef24730b3ce9331d6e"
+  },
+  "Brand": "Targus",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238f3960804ab410048d48"
+  },
+  "Name": "Đế tản nhiệt Baseus Cooling Stand Pro",
+  "Description": "Baseus Cooling Stand Pro với khung nhôm chống gỉ, cung cấp luồng gió mạnh mẽ giúp laptop luôn mát mẻ.",
+  "Price": 600000,
+  "Img": "images/sp508.png",
+  "Type": {
+    "$oid": "672b181124730b3ce9331d6d"
+  },
+  "Brand": "Baseus",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238f3960804ab410048d49"
+  },
+  "Name": "Đế tản nhiệt Laptop Cooler Pad Belkin X100",
+  "Description": "Belkin X100 có quạt làm mát tốc độ cao và thiết kế chống trượt, giúp bảo vệ và tản nhiệt laptop hiệu quả.",
+  "Price": 720000,
+  "Img": "images/sp509.png",
+  "Type": {
+    "$oid": "6726495cd0296c8ef92ad07c"
+  },
+  "Brand": "Belkin",
+  "Stock": 50
+},
+{
+  "_id": {
+    "$oid": "67238f6c60804ab410048d4b"
+  },
+  "Name": "Ghế công thái học Sihoo M57",
+  "Description": "Ghế công thái học Sihoo M57 hỗ trợ cột sống với thiết kế lưng lưới thoáng khí, tựa đầu và tay vịn điều chỉnh được. Phù hợp cho người ngồi lâu, giảm căng thẳng cơ và hỗ trợ tốt cho lưng.",
+  "Price": 2500000,
+  "Img": "images/sp501.png",
+  "Type": {
+    "$oid": "6726496cd0296c8ef92ad07d"
+  },
+  "Brand": "Sihoo",
+  "Stock": 50
+}]

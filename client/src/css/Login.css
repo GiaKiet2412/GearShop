@@ -3,7 +3,9 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #b40606;
+    background-image: url('../../public/images/hh.jpg'); /* Điều chỉnh đường dẫn */
+    background-size: cover; /* Để hình ảnh phủ đầy phần tử */
+    background-position: center; /* Căn giữa hình ảnh */
 }
 
 .login-box {
@@ -34,8 +36,8 @@
     width: 100%;
     padding: 10px;
     margin: 20px 0;
-    background: linear-gradient(135deg, #8e44ad, #b40606);
-    color: white;
+    background-color: #FFF7E6; /* Màu nền */
+    color: #E57905;
     border: none;
     border-radius: 4px;
     font-size: 16px;
@@ -44,7 +46,7 @@
 }
 
 .login-box button:hover {
-    background: linear-gradient(135deg, #b40606, #8e44ad);
+    background-color: #f8ecd2; /* Màu nền khi hover */
 }
 
 .login-box p {
@@ -58,4 +60,9 @@
 
 .login-box a:hover {
     text-decoration: underline;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
 }

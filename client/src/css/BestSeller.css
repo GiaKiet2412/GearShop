@@ -1,0 +1,42 @@
+.best-seller {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.best-sellers-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.best-selling-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.best-selling-item img {
+    width: 100%;
+    height: auto;
+    min-height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.best-selling-item h3 {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.best-selling-item p {
+    font-size: 14px;
+    color: #E57905;
+}
+
+.best-selling-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

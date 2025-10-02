@@ -1,0 +1,127 @@
+/* Định dạng tổng thể cho trang lịch sử đơn hàng */
+.order-history {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Nền sáng */
+    border-radius: 8px; /* Bo góc */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    margin-top: 160px;
+    padding: 20px; /* Thêm padding để nội dung không sát viền */
+}
+
+/* Tiêu đề của trang */
+.order-history__title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4A4A4A; /* Màu chữ tối */
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Thêm hiệu ứng đổ bóng nhẹ */
+}
+
+/* Khi không có đơn hàng */
+.order-history__empty {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #777; /* Màu nhạt hơn cho thông báo */
+}
+
+/* Danh sách đơn hàng */
+.order-history__list {
+    list-style-type: none; /* Bỏ dấu chấm */
+    padding: 0;
+}
+
+/* Mỗi đơn hàng trong danh sách */
+.order-history__item {
+    background-color: #fff; /* Nền trắng */
+    margin-bottom: 15px;
+    padding: 20px; /* Tăng padding để tạo khoảng cách */
+    border-radius: 8px; /* Bo góc */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    transition: transform 0.2s; /* Hiệu ứng phóng to khi hover */
+}
+
+.order-history__item:hover {
+    transform: translateY(-5px); /* Hiệu ứng nâng lên khi hover */
+}
+
+/* ID đơn hàng */
+.order-history__order-id {
+    font-size: 1.5rem; /* Kích thước chữ lớn */
+    margin: 0;
+    color: #E57905; /* Màu đỏ cho ID đơn hàng */
+}
+
+/* Thông tin đơn hàng */
+.order-history__total-price,
+.order-history__method,
+.order-history__status,
+.order-history__date,
+.order-history__address {
+    font-size: 1rem; /* Kích thước chữ nhỏ hơn */
+    color: #555; /* Màu chữ tối hơn */
+}
+
+/* Tiêu đề cho danh sách sản phẩm */
+.order-history__product-title {
+    font-size: 1.2rem; /* Kích thước chữ lớn hơn */
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #333; /* Màu tối cho tiêu đề */
+}
+
+/* Danh sách sản phẩm */
+.order-history__product-list {
+    list-style-type: none; /* Bỏ dấu chấm */
+    padding: 0;
+}
+
+/* Mỗi sản phẩm trong danh sách */
+.order-history__product-item {
+    font-size: 1rem; /* Kích thước chữ */
+    color: #333; /* Màu tối */
+    padding: 5px 0; /* Khoảng cách giữa các sản phẩm */
+}
+
+/* Nút hủy đơn hàng */
+.order-history__cancel-button {
+    background-color: #FFF7E6; /* Màu nền */
+    color: #E57905; /* Màu chữ */
+    border: none; /* Bỏ viền */
+    border-radius: 4px; /* Bo góc */
+    padding: 10px 15px; /* Padding cho nút */
+    cursor: pointer; /* Con trỏ chuột khi hover */
+    font-size: 1rem; /* Kích thước chữ */
+    display: flex; /* Căn giữa icon và chữ */
+    align-items: center; /* Căn giữa */
+    transition: background-color 0.3s, transform 0.3s; /* Hiệu ứng chuyển màu và phóng to */
+}
+
+.order-history__cancel-button:hover {
+    background-color: #f8ecd2; /* Màu nền khi hover */
+    transform: scale(1.05); /* Hiệu ứng phóng to khi hover */
+}
+
+/* Responsive cho màn hình nhỏ */
+@media (max-width: 600px) {
+    .order-history {
+        padding: 10px; /* Giảm padding trên màn hình nhỏ */
+    }
+
+    .order-history__title {
+        font-size: 2rem; /* Giảm kích thước tiêu đề */
+    }
+
+    .order-history__item {
+        padding: 10px; /* Giảm padding cho mỗi đơn hàng */
+    }
+}
+
+.notification {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    display: inline-block;
+}

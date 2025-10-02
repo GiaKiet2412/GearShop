@@ -1,0 +1,55 @@
+.admin-header {
+    width: 250px; /* Chiều rộng của sidebar */
+    height: 100vh; /* Chiều cao toàn bộ màn hình */
+    position: fixed; /* Để sidebar cố định */
+    background-color: #b40606; /* Màu nền đỏ */
+    padding: 20px; /* Padding cho sidebar */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng */
+    top: 0; /* Đảm bảo sidebar bắt đầu từ trên cùng */
+    left: 0; /* Đảm bảo sidebar ở bên trái */
+    z-index: 1000; /* Đưa sidebar lên trên các phần khác */
+    display: flex;
+    flex-direction: column; /* Đặt các liên kết theo chiều dọc */
+    justify-content: space-between; /* Đẩy các phần tử lên và xuống để có khoảng cách đều */
+    align-items: flex-start; /* Đảm bảo các phần tử căn trái */
+}
+
+.linkadminheader {
+    display: flex;
+    flex-direction: column; /* Đặt các liên kết theo chiều dọc */
+    gap: 10px; /* Khoảng cách giữa các liên kết */
+    flex-grow: 1; /* Cho phép phần này mở rộng để chiếm không gian còn lại */
+    width: 100%; /* Đảm bảo chiều rộng của container chiếm toàn bộ chiều rộng sidebar */
+}
+
+.header-link {
+    padding: 10px 20px; /* Thêm khoảng cách cho các liên kết */
+    text-decoration: none; /* Bỏ gạch chân */
+    color: white; /* Màu chữ trắng */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền */
+    border-radius: 5px; /* Bo tròn các góc cho liên kết */
+    text-align: left; /* Căn chỉnh chữ bên trái */
+    width: 100%; /* Đảm bảo chiều rộng của các liên kết chiếm toàn bộ chiều rộng container */
+}
+
+.header-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Nền sáng hơn khi hover */
+    text-decoration: none; /* Đảm bảo không có gạch chân khi hover */
+}
+
+.logout-button {
+    margin-top: auto; /* Đẩy nút đăng xuất xuống dưới cùng */
+    margin-bottom: 50px;
+    padding: 12px 20px; /* Tăng kích thước button */
+    background-color: #d32f2f; /* Màu đỏ */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px; /* Thay đổi kích thước chữ */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền */
+}
+
+.logout-button:hover {
+    background-color: #b40606; /* Màu nền khi hover */
+}

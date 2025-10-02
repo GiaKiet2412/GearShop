@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
 import '../css/Footer.css';
 
 const Footer = () => {
     return (
         <footer>
-            <div class="footer-container">
-                <div class="policy-section">
+            <div className="footer-container">
+                <div className="footer-policy-section">
                     <h3>CHÍNH SÁCH</h3>
                     <ul>
                         <li>Tìm kiếm</li>
@@ -15,7 +14,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div class="guide-section">
+                <div className="footer-guide-section">
                     <h3>HƯỚNG DẪN</h3>
                     <ul>
                         <li>Hướng dẫn thanh toán</li>
@@ -28,16 +27,17 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div class="support-section">
+                <div className="footer-support-section">
                     <h3>TỔNG ĐÀI HỖ TRỢ</h3>
-                    <div class="support-info">
+                    <div className="support-info">
                         <p>Hồ Chí Minh: 093 373 1881</p>
                         <p>Hà Nội: 097 232 1881</p>
                         <p>Hotline: 028 7108 1881</p>
                     </div>
                 </div>
             </div>
-        </footer >
+        </footer>
     );
 };
+
 export default Footer;
