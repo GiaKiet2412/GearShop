@@ -38,7 +38,7 @@ To clone this project and start using it locally, follow these steps:
    npm install
 
 
-   For the frontend:
+For the frontend:
    ```bash
    cd client
    npm install
@@ -51,7 +51,7 @@ To clone this project and start using it locally, follow these steps:
    node server.js
 
 
-   Start the frontend application:
+Start the frontend application:
    ```bash
    cd client
    npm start
