@@ -33,28 +33,26 @@ To clone this project and start using it locally, follow these steps:
 3. **Install dependencies:**
 
    For the backend:
-   ```bash
-   cd server
-   npm install
+      ```bash
+      cd server
+      npm install
 
-
-For the frontend:
-   ```bash
-   cd client
-   npm install
+   For the frontend:
+      ```bash
+      cd client
+      npm install
 
 4. **Run the application:**
 
    Start the backend server:
-   ```bash
-   cd server
-   node server.js
+      ```bash
+      cd server
+      node server.js
 
-
-Start the frontend application:
-   ```bash
-   cd client
-   npm start
+   Start the frontend application:
+      ```bash
+      cd client
+      npm start
    
 5. **Visit the app:**
 
