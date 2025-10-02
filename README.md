@@ -1,4 +1,4 @@
-# Online Computer Store
+# GearShop
 
 Welcome to the Online Computer Store! This web application allows users to shop for computers, accessories, and electronic components with ease and convenience.
 
@@ -37,6 +37,7 @@ To clone this project and start using it locally, follow these steps:
    cd server
    npm install
 
+
    For the frontend:
    ```bash
    cd client
@@ -49,6 +50,7 @@ To clone this project and start using it locally, follow these steps:
    cd server
    node server.js
 
+
    Start the frontend application:
    ```bash
    cd client
@@ -60,7 +62,7 @@ To clone this project and start using it locally, follow these steps:
 
 ## Contributing
 
-Feel free to contribute by submitting issues or pull requests. We appreciate your in##put!
+Feel free to contribute by submitting issues or pull requests. We appreciate your input!
 
 ## Author
 
